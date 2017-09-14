@@ -20,3 +20,14 @@ function repeatTimes(element, times)
 }
 
 
+/*
+*
+* Task 2
+*
+*/
+
+function reformat(str) {
+    var preformat = str.toLowerCase().replace(/[aeiou]/ig,'');
+    var final_format = preformat.charAt(0).toUpperCase() + preformat.slice(1);
+	return final_format;
+}
